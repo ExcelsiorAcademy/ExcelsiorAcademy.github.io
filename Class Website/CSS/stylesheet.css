@@ -1,0 +1,63 @@
+#Name{
+  font-family: "Pacifico";
+  font-size: 4em;
+  color:#FF0066;
+  text-align: center;
+  font-weight:bolder;
+
+}
+
+.classes{
+  font-family:sans-serif;
+  font-weight: bold;
+  color:blue;
+  text-align: center;
+  display:block;
+  font-size: 3em;
+  text-decoration: none;
+
+}
+
+.classimg{
+  margin:auto;
+  display:block;
+  height:75px;
+  width:75px;
+}
+
+.classimg2{
+  margin:auto;
+  display:block;
+  height:125px;
+  width:125px;
+}
+
+#lastimg{
+  padding-bottom: 100px;
+}
+
+.classdescrip{
+  font-family: "Indie Flower";
+  font-size:2em;
+  color:red;
+  text-align: center;
+  text-decoration: none;
+  display:block
+}
+
+.navbar{
+  position: fixed;
+   bottom: 0;
+   left:0;
+   right: 0;
+   width:auto;
+   background-color: white;
+
+}
+
+#email{
+  height:75px;
+  width:75px;
+  margin:auto;
+  display: block;
+}

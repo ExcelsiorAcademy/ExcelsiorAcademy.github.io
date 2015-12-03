@@ -1,0 +1,68 @@
+html {
+  background: url(../pictures/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.pics{
+	font-family: 'Rock Salt';
+	font-size: 2em;
+	text-align: center;
+	opacity: .8;
+}
+.social{
+  display:inline;
+  border:3px;
+  position: absolute;
+  bottom:.25em;
+}
+
+td img{
+  height:2em;
+  width:2em;
+}
+
+#p1{
+	color:#CC99FF;
+}
+
+#p2{
+	color:#A6FFA6;
+}
+
+#p3{
+	color:#33CCCC;
+}
+
+#p4{
+	color:#FF5F5F;
+}
+
+#p5{
+	color:#FFFF66;
+}
+
+#name{
+	font-family: 'Rock Salt';
+	color:white;
+	font-size: 3em;
+	text-align: center;
+	padding-top: 1.8em;
+	opacity: 1;
+}
+
+a:link{
+  color:inherit;
+}
+a:visited{
+  color:inherit;
+}
+a:hover{
+  color:white;
+}
+a:active{
+  color:black;
+}
