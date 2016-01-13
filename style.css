@@ -1,0 +1,89 @@
+.effect a {
+	color: #000d1a;
+	padding: 10px 0;
+}
+
+.effect a::after {
+	background:#000d1a;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	content: '';
+	width: 100%;
+	height: 1px;
+	opacity: 0;
+
+	transition: opacity 0.3s, transform 0.3s;
+	-moz-transition: opacity 0.3s, -moz-transform 0.3s;
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	transform: translateY(-10px);
+	-moz-transform: translateY(-10px);
+	-webkit-transform: translateY(-10px);
+}
+
+.effect a:hover::after,
+.effect a:focus::after {
+	opacity: 1;
+
+	transform: translateY(0px);
+	-moz-transform: translateY(0px);
+	-webkit-transform: translateY(0px);
+}
+nav a {
+      text-decoration: none;
+      color: #000d1a;
+      font-family: 'Roboto Condensed', sans-serif;
+      position: relative;
+      display: inline-block;
+      margin: 0 40px;
+      font-size: 30px;
+  }
+section{
+  margin: 0 auto;
+  padding: 100px 30px;
+  text-align: center;
+}
+
+html {
+  background: url("images/background.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#img1 {
+position: absolute;
+left: 340px;
+     top: 230px;
+
+}
+p {
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 28px;
+    width: 600px;
+    padding: 15px;
+    margin: 150px;
+    position: absolute;
+    left: -50px;
+    top: 660px;
+		background-color opacity: 0.6;
+		font-family: 'Roboto Condensed', sans-serif;
+}
+p1 {
+	font-family: 'Indie Flower', cursive;
+	font-size: 40px;
+	position: absolute;
+	left:760px;
+	top: 810px;
+}
+.righty{
+	width: 600px;
+	padding: 15px;
+	margin: 150px;
+	position: absolute;
+	right: -50px;
+	top: 660px;
+	background-color opacity: 0.6;
+}

@@ -1,25 +1,51 @@
-<!DOCTYPE html>
+<DOCTYPE! html>
 <html>
-<head>
-  <link type="text/css" rel="stylesheet" href="CSS/style.css"/>
-  <title>Stop Slavery Now</title>
-</head>
 
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
 <body>
 
-<h1>The Students at Excelsior Academy are working hard to get this site live. We are planning on going live January 11, 2016!  Please check back then so you can get more information on how you can help stop modern day slavery!</h1>
 
-<div>
-  <img src="Pictures/ExcelsiorLogo.png"/>
+  <body onload="startTime();">
+  <img id="img1">
+  <script>
+  var imgArray = new Array("Slavery.jpg","Slavery2.jpg","Slavery3.jpg","Slavery4.jpg","Slavery5.jpg","Slavery6.jpg","Slavery7.jpg");
+  var imgCount = 0;
+  function startTime() {
+      if(imgCount == imgArray.length) {
+          imgCount = 0;
+      }
+      document.getElementById("img1").src = imgArray[imgCount];
+      imgCount++;
+      setTimeout("startTime()", 2000);
+  }
+  </script>
+</img>
+
+
+<section class="shade4">
+<nav class="effect">
+<a href="index.html">Home</a>
+<a href="types.html">Forced Labor</a>
+<a href="relate.html"> Slavery Today</a>
+<a href="traficking.html">Sex Trafficking</a>
+<a href="bonded.html">Bonded Labor</a>
+</nav>
+</section>
+
+<p>
+  Slavery is still apparent in the world today.
+  The freedom we all deserve and hold high has been taken away from helpless individuals around our world and in our own country.
+  There are 27 million slaves in the world today. These individuals are sold like objects, having their freedom stripped from them and their families.
+  From women being forced into prostitution, children and adults forced to work amongst the grueling conditions of agriculture, and entire families forced into slavery to pay off generational debts, this illegal practice still scourges the contemporary world.
+</p>
+
+<div class="righty">
+<img src="images/flyer.jpg" align="right"/>
 </div>
 
-<div>
-  <img style="width:25em; margin-top:4em;" src="Pictures/smiley-icon-gifs-406.gif"/>
-
-</div>
 
 
-
-
-  </body>
-  </html>
+</body>
+</html>
