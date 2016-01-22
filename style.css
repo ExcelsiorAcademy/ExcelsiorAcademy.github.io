@@ -78,14 +78,8 @@ p1 {
 	left:760px;
 	top: 810px;
 }
-.righty{
-	width: 600px;
-	padding: 15px;
-	margin: 150px;
-	position: absolute;
-	right: -50px;
-	top: 660px;
-	background-color opacity: 0.6;
+.bottom{
+	margin-bottom: 0em;
 }
 h3 {
 font-size: 2em;
@@ -93,4 +87,12 @@ font-size: 2em;
 
 h2 {
 font-size:1.5em;s
+}
+
+
+img   {
+
+margin-left: auto;
+
+
 }
