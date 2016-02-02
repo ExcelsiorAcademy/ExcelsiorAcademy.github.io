@@ -124,3 +124,8 @@ p8 {
 		background-color opacity: 0.6;
 		font-family: 'Lato', sans-serif;
 }
+p2 {
+	font-family: 'Indie Flower', cursive;
+	font-size: 20px;
+	position: absolute;
+}
